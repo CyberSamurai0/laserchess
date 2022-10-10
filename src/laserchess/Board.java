@@ -512,37 +512,37 @@ public class Board {
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 0) s += "↑";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 1) s += "→";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 2) s += "↓";
-					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "�?";
+					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "←";
 					
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 0) s += "┬";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 1) s += "┤";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 2) s += "┴";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 3) s += "├";
 					
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 0) s += "◺";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 1) s += "◸";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 2) s += "◹";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 3) s += "◿";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 0) s += "◣";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 1) s += "◤";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 2) s += "◥";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 3) s += "◢";
 					
-					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 0) s += "⬕";
-					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 1) s += "◪";
+					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 0) s += "⧅";
+					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 1) s += "⧄";
 				} else if (layout[row][col].getTeam().equals(teamRed)) {
 					if (layout[row][col] instanceof KingPiece) s += "K";
 					
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 0) s += "↑";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 1) s += "→";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 2) s += "↓";
-					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "�?";
+					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "←";
 					
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 0) s += "┳";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 1) s += "┫";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 2) s += "┻";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 3) s += "┣";
 					
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 0) s += "◣";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 1) s += "◤";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 2) s += "◥";
-					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 3) s += "◢";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 0) s += "⬕";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 1) s += "◩";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 2) s += "⬔";
+					else if (layout[row][col] instanceof DeflectorPiece && layout[row][col].getOrientation() == 3) s += "◪";
 					
 					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 0) s += "\\";
 					else if (layout[row][col] instanceof SwitchPiece && layout[row][col].getOrientation() % 2 == 1) s += "/";
@@ -554,7 +554,7 @@ public class Board {
 			s += "\n";
 		}
 		
-		s += "  ================Key: (Red, Blue)================\n      King: K k   Deflector: ◣ ◺   Switch: \\ ⬕\n             Cannon: ↓ ↑  Defender: ┳ ┬\n  ================================================\n";
+		s += "  ================Key: (Red, Blue)================\n      King: K k   Deflector: ◣ ⬕   Switch: \\ ⧅\n             Cannon: → ←  Defender: ┤ ┣\n  ================================================\n";
 		return s;
 	}
 
