@@ -20,8 +20,8 @@ The board is displayed after any valid move in the terminal, but requires UTF-8 
 7 [ ]  [ ]  [ ]  [ ]  [ ]  [ ]  [ ]  [ ]  [ ]  [ ]  
 8 [ ]  [ ]  [◢]  [┬]  [k]  [┤]  [ ]  [◣]  [ ]  [↑]  
   ================Key: (Red, Blue)================
-      King: K k   Deflector: ◣ ⬕   Switch: \ ⧅
-             Cannon: → ←  Defender: ┤ ┣
+      King: K k   Deflector: ⬕ ◣   Switch: \ ⧅
+             Cannon: → ←  Defender: ┣ ┤
   ================================================
 
 The game is won! Congratulations Blue!
