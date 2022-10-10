@@ -1,11 +1,11 @@
-package laserChess;
+package laserchess;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Board game = new Board("sophie");
 		
-		/*game.moveFriendly('C', 2, 'C', 1); // Red Turn 1
+		game.moveFriendly('C', 2, 'C', 1); // Red Turn 1
 		game.rotateFriendly('F', 8, "right"); // Blue Turn 1
 		
 		game.moveFriendly('F', 4, 'F', 3); // Red Turn 2
@@ -30,7 +30,7 @@ public class Main {
 		game.moveFriendly('C', 1, 'B', 1); // Fails because B1 is a white helix
 		game.moveFriendly('E', 1, 'F', 1); // Fails because switches can't swap with kings
 		game.moveFriendly('F', 3, 'F', 2); // Red Turn 9
-		game.rotateFriendly('I', 5, "down"); // Blue Turn 8*/
+		game.rotateFriendly('I', 5, "down"); // Blue Turn 8
 	}
 
 }

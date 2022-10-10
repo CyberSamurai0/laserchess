@@ -1,4 +1,4 @@
-package laserChess;
+package laserchess;
 
 public class DeflectorPiece extends Piece {
 

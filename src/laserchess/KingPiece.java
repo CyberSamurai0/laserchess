@@ -1,4 +1,4 @@
-package laserChess;
+package laserchess;
 
 public class KingPiece extends Piece {
 

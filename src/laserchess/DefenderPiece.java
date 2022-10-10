@@ -1,4 +1,4 @@
-package laserChess;
+package laserchess;
 
 public class DefenderPiece extends Piece {
 

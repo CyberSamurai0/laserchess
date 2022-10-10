@@ -1,4 +1,4 @@
-package laserChess;
+package laserchess;
 
 public class Board {
 	
@@ -512,7 +512,7 @@ public class Board {
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 0) s += "↑";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 1) s += "→";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 2) s += "↓";
-					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "←";
+					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "�?";
 					
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 0) s += "┬";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 1) s += "┤";
@@ -532,7 +532,7 @@ public class Board {
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 0) s += "↑";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 1) s += "→";
 					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 2) s += "↓";
-					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "←";
+					else if (layout[row][col] instanceof LaserCannonPiece && layout[row][col].getOrientation() == 3) s += "�?";
 					
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 0) s += "┳";
 					else if (layout[row][col] instanceof DefenderPiece && layout[row][col].getOrientation() == 1) s += "┫";
