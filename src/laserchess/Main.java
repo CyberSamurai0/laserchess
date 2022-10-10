@@ -3,7 +3,7 @@ package laserchess;
 public class Main {
 
 	public static void main(String[] args) {
-		Board game = new Board("sophie");
+		Board game = new Board("ace");
 		
 		game.moveFriendly('C', 2, 'C', 1); // Red Turn 1
 		game.rotateFriendly('F', 8, "right"); // Blue Turn 1
