@@ -554,7 +554,7 @@ public class Board {
 			s += "\n";
 		}
 		
-		s += "  ================Key: (Red, Blue)================\n      King: K k   Deflector: ◣ ⬕   Switch: \\ ⧅\n             Cannon: → ←  Defender: ┤ ┣\n  ================================================\n";
+		s += "  ================Key: (Red, Blue)================\n      King: K k   Deflector: ⬕ ◣   Switch: \\ ⧅\n             Cannon: → ←  Defender: ┣ ┤\n  ================================================\n";
 		return s;
 	}
 
